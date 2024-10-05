@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Reload All Tabs",
+    "description": "A simple extension to reload all open tabs with a single click.",
+    "version": "1.0",
+    "permissions": ["tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Reload All Tabs",
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+  
